@@ -15,4 +15,5 @@ CREATE TABLE public.user
   request_count integer,
   calculations numeric,
   CONSTRAINT unique_user_1 PRIMARY KEY (id)
+  ```
 )
