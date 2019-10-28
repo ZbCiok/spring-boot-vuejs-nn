@@ -1,4 +1,4 @@
-## Install PostgresSQL
+## Install PostgreSQL
 
 ```python
 CREATE TABLE public.user
@@ -16,6 +16,10 @@ CREATE TABLE public.user
 ## Read and do:
 1. /backend/README.md
 2. /frontend/README.md
+
+## mvn spring-boot:run
+
+## nn.html
 
 
 
