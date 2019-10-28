@@ -8,7 +8,6 @@ DROP TABLE IF EXISTS public.user;
 CREATE TABLE public.user
 (
   id integer,
-  
   login character varying,
   type character varying,
   avatar_url character varying,
