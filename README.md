@@ -4,7 +4,7 @@
 
 ## Install PostgresSQL
 
-11111
-22222
-33333
+foobar.pluralize('word') # returns 'words'
+foobar.pluralize('goose') # returns 'geese'
+foobar.singularize('phenomena') # returns 'phenomenon'
 ```
