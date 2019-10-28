@@ -1,7 +1,7 @@
 ## Install PostgreSQL
 
 ```python
-see: * backend/src/main/resources *
+see: *backend/src/main/resources*
 
 CREATE TABLE public.user
 (
