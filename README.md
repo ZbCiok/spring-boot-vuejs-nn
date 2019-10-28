@@ -1,7 +1,3 @@
-## Read and do:
-1. /backend/README.md
-2. /frontend/README.md
-
 ## Install PostgresSQL
 
 ```python
@@ -17,5 +13,9 @@ CREATE TABLE public.user
   CONSTRAINT unique_user_1 PRIMARY KEY (id)
 )
 ```
+## Read and do:
+1. /backend/README.md
+2. /frontend/README.md
+
 
 
