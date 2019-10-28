@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Vue.js | Making API calls using Axios</title>
+</head>
+
+<body style="text-align: left">
+
+    <div id="app">
+        <h2>User</h2>
+        <p>
+            <form @submit.prevent="formSubmit">
+                <select v-model="selectedLogin">
+                    <option disabled value="">Please select one</option>
+                    <option>ezmobius</option>
+                    <option>wayneeseguin</option>
+                    <option>railsjitsu</option>
+                    <option>roland</option>
+                    <option>atmos</option>
+                </select>
+                
+                <button type="submit">Select</button>
+                <span>Selected: {{ selectedLogin }}</span>
+            </form>          
+        </p>
+
+        <p>
+            <form @submit.prevent="postFormSubmit">
+                <button type="submit">Calculations</button>
+                <span>  <--- User must be selected <i>(above button <b>Please select one</b>)</i>.<br>
+                    <i><b>Calculations</b></i> rusults: <i>http://localhost:8080/nn-test/users</i>. <br>
+                    Each press of <i><b>Calculations</b></i> increases <i><b>requestCount</b></i> and recalculates <i><b>calculations</b></i> fields.
+                </span>
+            </form>
+        </p>        
+
+        <br>
+        <img v-bind:src="avatar_url" alt="">
+        <p>id: {{id}}</p>
+        <p>login: {{login}}</p>
+        <p>name: {{name}}</p>
+        <p>type: {{type}}</p>
+        <p>avatarUrl: {{avatar_url}}</p>
+        <p>createdAt: {{created_at}}</p>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.2/vue.js"></script>
+    <script src="https://unpkg.com/axios@0.19.0/dist/axios.js"></script>
+    <script type="text/javascript" src="js/nn.js"></script>
+
+</body>
+
+</html>
